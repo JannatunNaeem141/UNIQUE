@@ -1,0 +1,785 @@
+        /****************************************************************************************************
+ Media query start
+*****************************************************************************************************/
+        /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+        
+        @media (min-width: 320px) and (max-width: 480px) {
+            /* *********** headind section *********** */
+            .banner {
+                padding: 20px 0px;
+            }
+            .inner-banner {
+                padding: 10px 0px;
+            }
+            .banner .inner-banner h2 {
+                font-size: 30px;
+                line-height: 34px;
+            }
+            .banner .inner-banner .btn-primary {
+                padding: 5px 25px;
+                font-size: 12px;
+            }
+            .header-section .main-menu {
+                text-align: right;
+            }
+            .header-section .main-menu .navbar-light .navbar-nav .active>.nav-link {
+                color: #511de5;
+                background: url(../images/hover-layer.png) right bottom no-repeat;
+                background-size: auto;
+            }
+            .header-section .main-menu .navbar-light .btn-link {
+                margin: 0px 4px;
+                display: block;
+                text-align: right;
+            }
+            .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover {
+                color: #511de5;
+                background: url(../images/hover-layer.png) right bottom no-repeat;
+                background-size: auto;
+            }
+            /*************** highlight section *********/
+            .highlight .inner-img img {
+                height: 92px;
+                width: 144px;
+                margin-top: 32px;
+            }
+            .highlight .inner-img h2 {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px;
+                width: 70%;
+            }
+            /**************** feature section *****************/
+            .feature {
+                padding-bottom: 0px;
+            }
+            .feature .inner-feature {
+                padding: 60px 23px;
+            }
+            .feature .inner-feature h2 {
+                font-size: 27px;
+                line-height: 28px;
+            }
+            .feature .inner-feature p {
+                line-height: 20px;
+            }
+            .feature .inner-feature .percent {
+                font-size: 68px;
+                margin: 0px 13px 0px 0px;
+            }
+            .img-fluid {
+                height: 64px;
+                width: 100%;
+            }
+            /* quote section  */
+            .into-quote {
+                padding: 65px 0px;
+            }
+            .into-quote .quote-inner {
+                margin: 42px 0px;
+                padding: 0px 20px;
+            }
+            .into-quote .quote-inner .testimonial-quote p {
+                font-size: 12px;
+                margin: 67px 0px 33px 30px;
+                line-height: 17px;
+            }
+            .into-quote .quote-inner .testimonial-quote h4 {
+                font-size: 12px;
+                margin: 4px 0px 48px 32px;
+                margin-top: -16px;
+                font-weight: 700;
+            }
+            .into-quote .quote-inner .testimonial-quote {
+                width: 80%;
+                padding: 29px;
+            }
+            .into-quote .inner-content {
+                padding: 0px 0px 115px 0px;
+            }
+            .into-quote .inner-content h2 {
+                font-size: 25px;
+                line-height: 32px;
+                margin-bottom: 13px;
+            }
+            .into-quote .inner-content .btn-primary {
+                font-size: 10px;
+                letter-spacing: 2px;
+                padding: 4px 15px;
+                margin-top: 0px;
+            }
+            .into-quote .inner-content .btn-primary .fas {
+                font-size: 13px;
+            }
+            /* efficiency section */
+            .efficiency {
+                padding: 0px 0px 50px 0px;
+            }
+            .efficiency h2 {
+                font-size: 25px;
+                line-height: 32px;
+                margin-bottom: 25px;
+                margin-top: 0px;
+            }
+            .efficiency p {
+                font-size: 12px;
+                line-height: 22px;
+                margin-bottom: 25px;
+                margin-top: 0px;
+            }
+            .efficiency .shape-1 img {
+                height: 25px;
+                width: 25px;
+            }
+            .efficiency .shape-1 {
+                font-size: 13px;
+                margin-bottom: 15px;
+            }
+            .efficiency .shape-2 img {
+                height: 25px;
+                width: 25px;
+            }
+            .efficiency .shape-2 {
+                font-size: 13px;
+                margin-bottom: 15px;
+            }
+            .efficiency .btn-primary {
+                font-size: 10px;
+                letter-spacing: 2px;
+                padding: 4px 15px;
+                margin: 10px 0px;
+            }
+            .efficiency .btn-primary .fas {
+                font-size: 13px;
+            }
+            .efficiency img {
+                height: 300px;
+                width: 100%;
+            }
+            /* feedback section */
+            .feedback-section {
+                padding: 50px 0px 16px 0px;
+            }
+            .feedback-section .title {
+                padding: 0px;
+                width: 100%;
+            }
+            .feedback-section .title h2 {
+                font-size: 25px;
+                line-height: 32px;
+                margin-bottom: 25px;
+                margin-top: 0px;
+            }
+            .feedback-section .title p {
+                font-size: 12px;
+                line-height: 22px;
+                margin-bottom: 25px;
+                width: 100%;
+            }
+            .feedback-section .feedback-inner {
+                padding: 15px 0px;
+            }
+            .feedback-section .feedback-inner h5 {
+                font-size: 17px;
+                line-height: 24px;
+            }
+            .feedback-section .feedback-inner p {
+                font-size: 12px;
+                line-height: 22px;
+            }
+            /* testimonial section */
+            .testimonial {
+                padding: 50px 0px;
+            }
+            .testimonial .title h2 {
+                font-size: 25px;
+                line-height: 32px;
+                margin-bottom: 25px;
+            }
+            .testimonial .client-box {
+                margin-bottom: 20px;
+            }
+            /* footer section */
+            .footer-section {
+                padding-top: 20px;
+                background-position: bottom;
+            }
+            .footer-section .col-md-5 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-section .col-md-7 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-section .title h2 {
+                font-size: 25px;
+                line-height: 32px;
+                margin-bottom: 25px;
+            }
+            .footer-section .faq {
+                padding: 50px 14px
+            }
+            .footer-section .faq .card .card-header .btn-link {
+                font-size: 14px;
+            }
+            .footer-section .faq .card-body {
+                font-size: 12px;
+            }
+            .footer-section .links {
+                padding: 20px 0px 0px 0px;
+            }
+            .footer-section .links ul li {
+                padding-right: 10px;
+            }
+            .footer-section .links ul li a {
+                font-size: 11px;
+                font-weight: 400;
+            }
+            .footer-section .copyright {
+                padding: 0px 0px 15px 0px;
+                text-align: center;
+            }
+            .footer-section .copyright p {
+                font-size: 11px;
+            }
+        }
+        /* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+        
+        @media (min-width: 481px) and (max-width: 767px) {
+            /* *********** headind section *********** */
+            .banner {
+                padding: 20px 0px;
+            }
+            .inner-banner {
+                padding: 10px 0px;
+            }
+            .banner .inner-banner h2 {
+                font-size: 30px;
+                line-height: 34px;
+            }
+            .banner .inner-banner .btn-primary {
+                padding: 5px 25px;
+                font-size: 12px;
+            }
+            .header-section .main-menu {
+                text-align: right;
+            }
+            .header-section .main-menu .navbar-light .btn-link {
+                margin: 0px 4px;
+                display: block;
+                text-align: right;
+            }
+            .header-section .main-menu .navbar-light .navbar-nav .active>.nav-link {
+                color: #511de5;
+                background: url(../images/hover-layer.png) right bottom no-repeat;
+                background-size: auto;
+            }
+            .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover {
+                color: #511de5;
+                background: url(../images/hover-layer.png) right bottom no-repeat;
+                background-size: auto;
+            }
+            /*************** highlight section *********/
+            .highlight .inner-img img {
+                height: 122px;
+                width: 178px;
+                margin-top: 20px;
+            }
+            .highlight .inner-img h2 {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 26px;
+            }
+            /**************** feature section *****************/
+            .feature .inner-feature {
+                padding: 65px 34px;
+            }
+            .feature .inner-feature h2 {
+                font-size: 32px;
+                line-height: 37px;
+            }
+            .feature .inner-feature p {
+                line-height: 21px;
+            }
+            .feature .inner-feature .percent {
+                font-size: 72px;
+                margin: 0px 13px 0px 0px;
+            }
+            .img-fluid {
+                height: 64px;
+                width: 100%;
+            }
+            /* quote section  */
+            .into-quote {
+                padding: 65px 0px;
+            }
+            .into-quote .quote-inner {
+                margin: 42px 0px;
+                padding: 0px 20px;
+            }
+            .into-quote .quote-inner .testimonial-quote p {
+                font-size: 12px;
+                margin: 67px 0px 33px 30px;
+                line-height: 17px;
+            }
+            .into-quote .quote-inner .testimonial-quote h4 {
+                font-size: 12px;
+                margin: 4px 0px 48px 32px;
+                margin-top: -16px;
+                font-weight: 700;
+            }
+            .into-quote .quote-inner .testimonial-quote {
+                width: 53%;
+                padding: 28px;
+            }
+            .into-quote .inner-content {
+                padding: 0px 0px 115px 0px;
+            }
+            .into-quote .inner-content h2 {
+                font-size: 32px;
+                line-height: 36px;
+                margin-bottom: 37px;
+            }
+            .into-quote .inner-content .btn-primary {
+                font-size: 12px;
+                letter-spacing: 2px;
+                padding: 8px 37px;
+                margin-top: 0px;
+            }
+            .into-quote .inner-content .btn-primary .fas {
+                font-size: 15px;
+            }
+            /* efficiency section */
+            .efficiency {
+                padding: 0px 0px 80px 0px;
+            }
+            .efficiency h2 {
+                font-size: 32px;
+                line-height: 36px;
+                margin-bottom: 25px;
+                margin-top: 0px;
+            }
+            .efficiency p {
+                font-size: 13px;
+                line-height: 23px;
+                margin-bottom: 25px;
+                margin-top: 0px;
+            }
+            .efficiency .shape-1 img {
+                height: 26px;
+                width: 26px;
+            }
+            .efficiency .shape-1 {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            .efficiency .shape-2 img {
+                height: 26px;
+                width: 26px;
+            }
+            .efficiency .shape-2 {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            .efficiency .btn-primary {
+                font-size: 12px;
+                letter-spacing: 2px;
+                padding: 6px 17px;
+                margin: 10px 0px;
+            }
+            .efficiency .btn-primary .fas {
+                font-size: 13px;
+            }
+            .efficiency img {
+                height: 350px;
+                width: 100%;
+            }
+            /* feedback section */
+            .feedback-section {
+                padding: 65px 0px 30px 0px;
+            }
+            .feedback-section .title {
+                padding: 0px;
+            }
+            .feedback-section .title h2 {
+                font-size: 32px;
+                line-height: 32px;
+                margin-bottom: 25px;
+                margin-top: 0px;
+            }
+            .feedback-section .title p {
+                font-size: 13px;
+                line-height: 22px;
+                margin-bottom: 25px;
+                width: 100%;
+            }
+            .feedback-section .feedback-inner {
+                padding: 15px 0px;
+            }
+            .feedback-section .feedback-inner h5 {
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .feedback-section .feedback-inner p {
+                font-size: 13px;
+                line-height: 22px;
+            }
+            /* testimonial section */
+            .testimonial {
+                padding: 65px 0px;
+            }
+            .testimonial .title h2 {
+                font-size: 32px;
+                line-height: 32px;
+                margin-bottom: 25px;
+            }
+            .testimonial .client-box {
+                margin-bottom: 20px;
+            }
+            /* footer section */
+            .footer-section {
+                padding-top: 30px;
+                background-position: bottom;
+            }
+            .footer-section .col-md-5 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-section .col-md-7 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-section .title h2 {
+                font-size: 32px;
+                line-height: 32px;
+                margin-bottom: 25px;
+            }
+            .footer-section .faq {
+                padding: 50px 14px
+            }
+            .footer-section .faq .card .card-header .btn-link {
+                font-size: 14px;
+            }
+            .footer-section .faq .card-body {
+                font-size: 12px;
+            }
+            .footer-section .links {
+                padding: 20px 0px 0px 0px;
+            }
+            .footer-section .links ul li {
+                padding-right: 15px;
+            }
+            .footer-section .links ul li a {
+                font-size: 12px;
+                font-weight: 500;
+            }
+            .footer-section .copyright {
+                padding: 0px 0px 15px 0px;
+                text-align: center;
+            }
+            .footer-section .copyright p {
+                font-size: 12px;
+            }
+            .footer-section .footer-end {
+                display: flex;
+            }
+        }
+        /* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+        
+        @media (min-width: 768px) and (max-width: 1000px) {
+            /* *********** headind section *********** */
+            .banner {
+                padding: 40px 0px;
+            }
+            .inner-banner {
+                padding: 20px 0px;
+            }
+            .banner .inner-banner h2 {
+                font-size: 33px;
+                line-height: 36px;
+            }
+            .banner .inner-banner .btn-primary {
+                padding: 6px 28px;
+                font-size: 12px;
+            }
+            .header-section .main-menu {
+                text-align: right;
+            }
+            .header-section .main-menu .navbar-light .btn-link {
+                margin: 0px 4px;
+                display: block;
+                text-align: right;
+            }
+            .header-section .main-menu .navbar-light .navbar-nav .active>.nav-link {
+                color: #511de5;
+                background: url(../images/hover-layer.png) right bottom no-repeat;
+                background-size: auto;
+            }
+            .header-section .main-menu .navbar-light .navbar-nav .nav-link:hover {
+                color: #511de5;
+                background: url(../images/hover-layer.png) right bottom no-repeat;
+                background-size: auto;
+            }
+            /*************** highlight section *********/
+            .highlight .inner-img img {
+                height: 129px;
+                width: 228px;
+                margin-top: 13px;
+            }
+            .highlight .inner-img h2 {
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 30px;
+            }
+            /**************** feature section *****************/
+            .feature .inner-feature {
+                padding: 65px 34px;
+            }
+            .feature .inner-feature h2 {
+                font-size: 33px;
+                line-height: 37px;
+            }
+            .feature .inner-feature p {
+                line-height: 21px;
+            }
+            .feature .inner-feature .percent {
+                font-size: 76px;
+                margin: 0px 13px 0px 0px;
+            }
+            .img-fluid {
+                height: 64px;
+                width: 100%;
+            }
+            /* quote section  */
+            .into-quote {
+                padding: 140px 0px;
+            }
+            .into-quote .quote-inner {
+                padding: 50px 0px;
+                margin: 39px 0px;
+            }
+            .into-quote .quote-inner .testimonial-quote p {
+                font-size: 12px;
+                margin: 0px 0px 4px 45px;
+            }
+            .into-quote .quote-inner .testimonial-quote h4 {
+                font-weight: 700;
+                font-size: 13px;
+                margin: 10px 0px 0px 46px;
+            }
+            .into-quote .quote-inner .testimonial-quote {
+                width: 99%;
+                padding: 23px;
+            }
+            .into-quote .inner-content {
+                padding: 69px 0px;
+            }
+            .into-quote .inner-content h2 {
+                font-size: 33px;
+                font-weight: 900;
+                line-height: 40px;
+                margin-bottom: 25px;
+            }
+            .into-quote .inner-content .btn-primary {
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 3px;
+                padding: 8px 38px;
+                margin-top: 10px;
+            }
+            .into-quote .inner-content .btn-primary .fas {
+                font-size: 20px;
+            }
+            /* efficiency section */
+            .efficiency {
+                padding: 0px 0px 80px 0px;
+            }
+            .efficiency h2 {
+                font-size: 33px;
+                line-height: 36px;
+                margin-bottom: 25px;
+                margin-top: 0px;
+            }
+            .efficiency p {
+                font-size: 13px;
+                line-height: 23px;
+                margin-bottom: 25px;
+                margin-top: 0px;
+            }
+            .efficiency .shape-1 img {
+                height: 27px;
+                width: 27px;
+            }
+            .efficiency .shape-1 {
+                font-size: 12.5px;
+                margin-bottom: 15px;
+            }
+            .efficiency .shape-2 img {
+                height: 27px;
+                width: 27px;
+            }
+            .efficiency .shape-2 {
+                font-size: 13px;
+                margin-bottom: 15px;
+            }
+            .efficiency .btn-primary {
+                font-size: 12px;
+                letter-spacing: 2px;
+                padding: 7px 18px;
+                margin: 10px 0px;
+            }
+            .efficiency .btn-primary .fas {
+                font-size: 14px;
+            }
+            .efficiency img {
+                height: 350px;
+            }
+            /* feedback section */
+            .feedback-section {
+                padding: 75px 0px;
+            }
+            .feedback-section .title {
+                padding: 0px;
+            }
+            .feedback-section .title h2 {
+                font-size: 33px;
+                line-height: 32px;
+                margin-bottom: 25px;
+                margin-top: 0px;
+            }
+            .feedback-section .title p {
+                font-size: 13px;
+                line-height: 22px;
+                margin-bottom: 25px;
+                width: 100%;
+            }
+            .feedback-section .feedback-inner {
+                padding: 15px 0px;
+            }
+            .feedback-section .feedback-inner h5 {
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .feedback-section .feedback-inner p {
+                font-size: 11px;
+                line-height: 22px;
+                margin: 0px 15px;
+            }
+            /* testimonial section */
+            .testimonial {
+                padding: 75px 0px;
+            }
+            .testimonial .title h2 {
+                font-size: 33px;
+                line-height: 32px;
+                margin-bottom: 25px;
+            }
+            .testimonial .client-box .client-head h5 {
+                font-size: 11px;
+                padding: 0px 2px;
+                line-height: 18px;
+            }
+            .testimonial .client-box {
+                padding: 0px;
+            }
+            .testimonial .client-box .client-info h6 {
+                font-size: 12px;
+            }
+            .testimonial .client-box .client-info p {
+                font-size: 11px;
+            }
+            .testimonial .client-box .client-info img {
+                height: 50px;
+                width: 50px;
+            }
+            /* footer section */
+            .footer-section {
+                padding-top: 40px;
+                background-position: bottom;
+            }
+            .footer-section .title h2 {
+                font-size: 40px;
+                line-height: 45px;
+                margin-bottom: 25px;
+            }
+            .footer-section .copyright {
+                text-align: center;
+            }
+            .footer-section .links {
+                padding: 40px 0px;
+            }
+            .footer-section .copyright {
+                padding: 40px 0px 20px 0px;
+            }
+        }
+        /*
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+        
+        @media (min-width: 1001px) and (max-width: 1280px) {
+            /* *********** headind section *********** */
+            .banner {
+                padding: 45px 0px;
+            }
+            .inner-banner {
+                padding: 25px 0px;
+            }
+            .banner .inner-banner h2 {
+                font-size: 35px;
+                line-height: 38px;
+            }
+            .banner .inner-banner .btn-primary {
+                padding: 7px 29px;
+                font-size: 12px;
+            }
+            /*************** highlight section *********/
+            .highlight .inner-img img {
+                height: 141px;
+                width: 254px;
+                margin-top: 13px;
+            }
+            .highlight .inner-img h2 {
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 33px;
+            }
+            .feature .inner-feature h2 {
+                font-size: 36px;
+                line-height: 40px;
+            }
+            /******* quote section  ************/
+            .into-quote .quote-inner .testimonial-quote p {
+                font-size: 12px;
+                margin: 0px 0px 4px 45px;
+            }
+            /********** efficiency section **********/
+            .efficiency {
+                padding: 0px 0px 80px 0px;
+            }
+            .efficiency h2 {
+                margin-top: 0px;
+            }
+            /********* feedback section ************/
+            .feedback-section .title p {
+                width: 60%;
+            }
+        }
